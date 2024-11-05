@@ -1,9 +1,9 @@
-class Circle {
+class Circle1 {
     protected static final double PI = 3.14;
     private double radius;
     private String color;
 
-    public Circle() {
+    public Circle1() {
         this.radius = 0;
         this.color = "White";
     }
@@ -11,14 +11,14 @@ class Circle {
     /**
      * Constructor radius.
      */
-    public Circle(double radius) {
+    public Circle1(double radius) {
         this.radius = radius;
     }
 
     /**
      * Constructor radius and color.
      */
-    public Circle(double radius, String color) {
+    public Circle1(double radius, String color) {
         this.radius = radius;
         this.color = color;
     }
